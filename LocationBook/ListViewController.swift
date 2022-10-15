@@ -75,6 +75,7 @@ class ListViewController: UIViewController, UITableViewDelegate, UITableViewData
         do{
             let results = try context.fetch(fetchRequest)
             
+            // is initial kontrolü
             if results.count > 0 {
                 
                 self.nameArray.removeAll(keepingCapacity: false)
