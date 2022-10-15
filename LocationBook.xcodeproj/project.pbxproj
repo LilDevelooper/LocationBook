@@ -14,6 +14,7 @@
 		C3C076EF28F6D95F00E03420 /* LocationBook.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C3C076ED28F6D95F00E03420 /* LocationBook.xcdatamodeld */; };
 		C3C076F128F6D96100E03420 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3C076F028F6D96100E03420 /* Assets.xcassets */; };
 		C3C076F428F6D96100E03420 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3C076F228F6D96100E03420 /* LaunchScreen.storyboard */; };
+		C3C076FC28F7555000E03420 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C076FB28F7555000E03420 /* ListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		C3C076F028F6D96100E03420 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C3C076F328F6D96100E03420 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C3C076F528F6D96100E03420 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3C076FB28F7555000E03420 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			children = (
 				C3C076E428F6D95F00E03420 /* AppDelegate.swift */,
 				C3C076E628F6D95F00E03420 /* SceneDelegate.swift */,
+				C3C076FB28F7555000E03420 /* ListViewController.swift */,
 				C3C076E828F6D95F00E03420 /* ViewController.swift */,
 				C3C076EA28F6D95F00E03420 /* Main.storyboard */,
 				C3C076F028F6D96100E03420 /* Assets.xcassets */,
@@ -144,6 +147,7 @@
 				C3C076E928F6D95F00E03420 /* ViewController.swift in Sources */,
 				C3C076EF28F6D95F00E03420 /* LocationBook.xcdatamodeld in Sources */,
 				C3C076E528F6D95F00E03420 /* AppDelegate.swift in Sources */,
+				C3C076FC28F7555000E03420 /* ListViewController.swift in Sources */,
 				C3C076E728F6D95F00E03420 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -220,7 +224,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -274,7 +278,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
